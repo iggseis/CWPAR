@@ -1,3 +1,6 @@
+CWPAR
+======
+## What is CWPAR ?
 This package is for the **Clipped Waveform Pick-up and Restoration** (**CWPAR**).
 
 It will pick up the clipped seismic waveform and restore the waveform using POCS method.
@@ -5,6 +8,8 @@ It will pick up the clipped seismic waveform and restore the waveform using POCS
 For more detailed technical information, please refer to:
 
 ***Zhang, J. H.** et al., 2016, Restoration of clipped seismic waveforms using projection onto convex sets method, Scientific Reports,6:39056, doi: 10.1038/srep39056*
+
+## Info
 
 `CWPAR.m` is the main program, which calls the other Matlab functions.
 
@@ -14,9 +19,12 @@ These scripts are dependent on `sac_sun2pc_mat.m` by C. D. Saragiotis and `cprin
 
 Users can check Jinhai Zhang' homepage (https://www.researchgate.net/profile/Jin_Hai_Zhang) for the latest version or send a email to zjh@mail.iggcas.ac.cn
 
- Last modified by Jinhai Zhang, Dec 06, 2016, version: 0.1
+Last modified by Jinhai Zhang, Dec 06, 2016, version: 0.1
 
- This code can be used for noncommercial purposes only. For commercial use, please contact Prof. Jinhai Zhang, zjh@mail.iggcas.ac.cn
+This code can be used for noncommercial purposes only. For commercial use, please contact Prof. Jinhai Zhang, zjh@mail.iggcas.ac.cn
+
+
+## Citation
 
  Please cite this code in terms of the related technical papers:
 
